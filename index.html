@@ -325,19 +325,74 @@
           </div>
 
           <div class="assignment-list">
-            <article class="assignment" id="assignment-1" aria-labelledby="assignment-1-title">
-              <header>
-                <span class="assignment-index">Assignment 01</span>
-                <h3 id="assignment-1-title">[EDIT: Title of your first assignment]</h3>
-              </header>
-              <p class="assignment-abstract"><strong>Abstract.</strong> [EDIT: Give a short description of this assignment: the question, material, method, and main insight.]</p>
-              <!-- EDIT: Replace this with the GitHub repository URL for this assignment. -->
-              <p class="assignment-repository"><a class="repository-link" href="https://github.com/your-username/your-assignment-1-repository" target="_blank" rel="noopener noreferrer">View this project&rsquo;s GitHub repository</a></p>
-              <div class="assignment-body">
-                <p class="edit-callout">Visible assignment work</p>
-                <p>[EDIT: Place the actual first assignment here. Add paragraphs, images, a timeline, linked media, data, maps, or your own HTML. This space should show the work, not only describe it.]</p>
-              </div>
-            </article>
+           <article class="assignment" id="assignment-1" aria-labelledby="assignment-1-title">
+  <header>
+    <span class="assignment-index">Assignment 01</span>
+    <h3 id="assignment-1-title">Hindi Literary Stopwords</h3>
+  </header>
+
+  <p class="assignment-abstract">
+    <strong>Abstract.</strong>
+    This project develops an experimental Hindi stopword resource
+    for literary text processing. It contains 39 selected grammatical
+    words and uses Python to remove them while preserving meaningful
+    vocabulary such as प्रकृति, नदी, वन and जीवन.
+  </p>
+
+  <p class="assignment-repository">
+    <a class="repository-link"
+       href="https://github.com/Shweta456-PIXEL/Hindi_Literary_StopWords"
+       target="_blank" rel="noopener noreferrer">
+       View this project's GitHub repository
+    </a>
+  </p>
+
+  <div class="assignment-body">
+    <p class="edit-callout">Project overview</p>
+
+    <h3>Objective</h3>
+    <p>
+      To explore how selected grammatical words can be removed
+      from Hindi text without removing meaningful literary vocabulary.
+    </p>
+
+    <h3>Methodology</h3>
+    <ol>
+      <li>Created a curated list of 39 Hindi stopwords.</li>
+      <li>Loaded the list from <code>stopwords.txt</code>.</li>
+      <li>Applied Unicode NFC normalization using Python.</li>
+      <li>Used whitespace-based tokenization to identify stopwords.</li>
+      <li>Tested the function on sample Hindi sentences.</li>
+    </ol>
+
+    <h3>Sample text and output</h3>
+
+    <p><strong>Original text:</strong></p>
+    <p>प्रकृति और मनुष्य का संबंध बहुत गहरा है।</p>
+
+    <p><strong>Cleaned text:</strong></p>
+    <p>प्रकृति मनुष्य संबंध बहुत गहरा।</p>
+
+    <p><strong>Removed stopwords:</strong></p>
+    <p>और, का, है</p>
+
+    <h3>Project files</h3>
+    <ul>
+      <li><a href="https://github.com/Shweta456-PIXEL/Hindi_Literary_StopWords/blob/main/hindi_stopwords.py" target="_blank" rel="noopener noreferrer">Python implementation</a></li>
+      <li><a href="https://github.com/Shweta456-PIXEL/Hindi_Literary_StopWords/blob/main/stopwords.txt" target="_blank" rel="noopener noreferrer">Hindi stopword list</a></li>
+      <li><a href="https://github.com/Shweta456-PIXEL/Hindi_Literary_StopWords/blob/main/example.py" target="_blank" rel="noopener noreferrer">Example and testing</a></li>
+      <li><a href="https://github.com/Shweta456-PIXEL/Hindi_Literary_StopWords/blob/main/methodology.md" target="_blank" rel="noopener noreferrer">Methodology and limitations</a></li>
+    </ul>
+
+    <h3>Limitations</h3>
+    <p>
+      This is an experimental resource, not a universal Hindi NLP standard.
+      Its current list is limited to 39 words, and whitespace-based
+      tokenization cannot capture every linguistic variation.
+      Further testing on a larger Hindi poetry corpus is required.
+    </p>
+  </div>
+</article>
 
             <article class="assignment" id="assignment-2" aria-labelledby="assignment-2-title">
               <header>
