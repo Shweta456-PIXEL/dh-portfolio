@@ -394,19 +394,84 @@
   </div>
 </article>
 
-            <article class="assignment" id="assignment-2" aria-labelledby="assignment-2-title">
-              <header>
-                <span class="assignment-index">Assignment 02</span>
-                <h3 id="assignment-2-title">[EDIT: Title of your second assignment]</h3>
-              </header>
-              <p class="assignment-abstract"><strong>Abstract.</strong> [EDIT: Give a short description of this assignment: the question, material, method, and main insight.]</p>
-              <!-- EDIT: Replace this with the GitHub repository URL for this assignment. -->
-              <p class="assignment-repository"><a class="repository-link" href="https://github.com/your-username/your-assignment-2-repository" target="_blank" rel="noopener noreferrer">View this project&rsquo;s GitHub repository</a></p>
-              <div class="assignment-body">
-                <p class="edit-callout">Visible assignment work</p>
-                <p>[EDIT: Place the actual second assignment here. Delete this entire block if you do not need it, or copy a block to add more assignments.]</p>
-              </div>
-            </article>
+           
+<article class="assignment" id="assignment-2" aria-labelledby="assignment-2-title">
+  <header>
+    <span class="assignment-index">Assignment 02</span>
+    <h3 id="assignment-2-title">Hindi Poetry RAG: Ecological and Cultural Elements</h3>
+  </header>
+
+  <p class="assignment-abstract">
+    <strong>Abstract.</strong>
+    This project explores how Retrieval-Augmented Generation (RAG)
+    can retrieve and interpret ecological and cultural references
+    in selected passages from Kamayani by Jaishankar Prasad.
+    It uses multilingual text embeddings, semantic retrieval,
+    and Gemini to generate Hindi answers grounded in retrieved passages.
+  </p>
+
+  <p class="assignment-repository">
+    <a class="repository-link"
+       href="https://github.com/Shweta456-PIXEL/Hindi_Poetry_Ecology_RAG"
+       target="_blank" rel="noopener noreferrer">
+       View this project's GitHub repository
+    </a>
+  </p>
+
+  <div class="assignment-body">
+    <p class="edit-callout">Project overview</p>
+
+    <h3>Research Focus</h3>
+    <ul>
+      <li>Flora and fauna in Hindi poetry</li>
+      <li>Rivers, water and landscapes</li>
+      <li>Natural elements and seasons</li>
+      <li>Cultural and metaphorical meanings</li>
+      <li>Human–nature relationships</li>
+    </ul>
+
+    <h3>Methodology</h3>
+    <ol>
+      <li>Prepared 15 selected passages from three sargs of Kamayani.</li>
+      <li>Divided the passages into 43 text chunks.</li>
+      <li>Generated 384-dimensional multilingual embeddings.</li>
+      <li>Implemented semantic retrieval using cosine similarity.</li>
+      <li>Generated context-grounded Hindi responses using Gemini.</li>
+      <li>Conducted preliminary manual retrieval evaluation using 12 judgments.</li>
+      <li>Analysed flora and fauna keyword frequencies and created a Gephi co-occurrence network.</li>
+    </ol>
+
+    <h3>Flora and Fauna Frequency Analysis</h3>
+    <p>
+      The chart presents the frequency of selected ecological terms
+      identified in the experimental poetry corpus.
+    </p>
+
+    <figure>
+      <img src="visualizations/flora_fauna_frequency_corrected.png"
+           alt="Bar chart showing flora and fauna references in Kamayani">
+      <figcaption>
+        Frequency of selected ecological terms in the Kamayani corpus.
+      </figcaption>
+    </figure>
+
+    <h3>Tools and Technologies</h3>
+    <p>
+      Python, Google Colab, Pandas, Sentence Transformers,
+      Gemini API, Gephi and GitHub.
+    </p>
+
+    <h3>Limitations</h3>
+    <p>
+      This is an experimental prototype based on 15 selected passages
+      from three sargs, not the complete Kamayani text.
+      Keyword-based analysis may miss synonyms, metaphorical references
+      and inflected word forms. Retrieval evaluation is preliminary
+      and based on manual relevance judgments.
+    </p>
+  </div>
+</article>
+
 
             <article class="assignment" id="assignment-3" aria-labelledby="assignment-3-title">
               <header>
